@@ -4,6 +4,8 @@
     {
         public int MaxSubArray(int[] nums)
         {
+            //https://leetcode.com/problems/maximum-subarray
+
             var left = 0;
             var right = 0;
 
