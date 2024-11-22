@@ -1,6 +1,6 @@
 ﻿using LeetCode.Basics;
 
-namespace LeetCodeTests
+namespace LeetCodeTests.Basics
 {
     public class FixedSlidingWindowTests
     {
@@ -11,9 +11,9 @@ namespace LeetCodeTests
         }
 
         [Theory]
-        [InlineData("cbaebabacd", "abc", new int[] {0,6})]
-        [InlineData("abab", "ab", new int[] { 0, 1, 2})]
-        [InlineData("aaaaaaaaaa", "aaaaaaaaaaaaa", new int[] {})]
+        [InlineData("cbaebabacd", "abc", new int[] { 0, 6 })]
+        [InlineData("abab", "ab", new int[] { 0, 1, 2 })]
+        [InlineData("aaaaaaaaaa", "aaaaaaaaaaaaa", new int[] { })]
         [InlineData("baa", "aa", new int[] { 1 })]
         public void FindAnagrams(string text, string word, int[] expectedOutput)
         {

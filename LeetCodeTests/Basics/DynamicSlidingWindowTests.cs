@@ -1,6 +1,6 @@
 ﻿using LeetCode.Basics;
 
-namespace LeetCodeTests
+namespace LeetCodeTests.Basics
 {
     public class DynamicSlidingWindowTests
     {
